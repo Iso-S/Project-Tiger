@@ -6,6 +6,7 @@ Tässä lisää tekstiä
 Vielä lisää tekstiä!
 
 # Scrum-syklin yleiskuvaus
+Yleiskuvaus on nyt tässä
 # Sprintit
 # Työjonot
 # Roolit
