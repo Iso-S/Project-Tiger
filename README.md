@@ -8,6 +8,7 @@ Vielä lisää tekstiä!
 # Scrum-syklin yleiskuvaus
 Yleiskuvaus on nyt tässä
 # Sprintit
+Jotain sprinteistä
 # Työjonot
 # Roolit
 # Kokoukset
