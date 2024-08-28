@@ -1,6 +1,7 @@
 # Project-Tiger
 Ohjelmistoprojekti 1 kurssin projektirepositorio
 Heli kirjoitti tähän jotain
+Teppo kirjoitti tähän
 
 Tässä lisää tekstiä
 Vielä lisää tekstiä!
