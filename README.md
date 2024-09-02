@@ -14,7 +14,6 @@ Sprintit on yhden tai kahden viikon mittaisia työjaksoja, joihin valitaan raken
 Sprintin suunnittelussa tiimi (ja joissain määrin) Product Owner valitsee sillä hetkellä tärkeimmän ominaisuuden, ns. listan päältä.
 # Työjonot (Backlog)
 Kaikki projektin tehtävät ja ominaisuudet. Tehtävät kirjoitetaan "User Storyina".
-
 **Työjono:**
 -
 -
