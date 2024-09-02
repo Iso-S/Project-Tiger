@@ -23,9 +23,9 @@ Kaikki projektin tehtävät ja ominaisuudet. Tehtävät kirjoitetaan "User Story
 -
 ...jne
 # Roolit
-- Scrum Master:
-- Product Owner:
-- Development Team (Tiimi):
+- Scrum Master: Scrum Master toimii tiimin tukijana ja auttaa poistamaan esteitä, jotka hidastavat työn etenemistä. Hän myös varmistaa, että Scrum-prosessi toteutetaan oikein.
+- Product Owner: Tuoteomistaja vastaa tuotteen työjonon hallinnasta, priorisoinnista ja kommunikaatiosta sidosryhmien kanssa. Hän varmistaa, että tiimi keskittyy korkeimman arvon tuottamiseen.
+- Development Team (Tiimi): Kehitystiimi koostuu moniosaajista, jotka vastaavat ominaisuuksien suunnittelusta, toteutuksesta ja testaamisesta. Tiimi on itseohjautuva ja tekee päätökset työn suorittamisesta. 
 # Kokoukset
 Traditionaalisesti kokoukset Scrummissa on pidetty ns. Daily Stand-Uppeina, joka on siis päivittäinen max 15min kokous. 
 
