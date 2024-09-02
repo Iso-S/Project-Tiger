@@ -36,3 +36,4 @@ Sprintin katselmus (Sprint Review): Sprintin lopussa pidettävä kokous, jossa t
 Sprintin retrospektiivi (Sprint Retrospective): Sprintin jälkeen tiimi kokoontuu arvioimaan, mikä meni hyvin ja missä on parannettavaa, ja laatii suunnitelman seuraavan sprintin parantamiseksi.
 
 # Miksi Scrum toimii?
+Scrum mahdollistaa nopean reagoinnin muutoksiin, parantaa tiimin yhteistyötä ja sitoutumista, sekä tuo jatkuvasti näkyviä tuloksia. Iteratiivinen lähestymistapa vähentää riskejä ja parantaa tuotteen laatua, samalla kun sidosryhmät saavat jatkuvasti palautetta ja voivat vaikuttaa kehityssuunnitelmaan. Scrum korostaa avoimuutta, tarkastelua ja sopeutumista, mikä tekee siitä erittäin joustavan ja tehokkaan menetelmän monimutkaisten projektien hallintaan.
