@@ -10,7 +10,6 @@ Vielä lisää tekstiä!
 Scrum on ketterän kehityksen viitekehys, joka mahdollistaa monimutkaisten projektien hallinnan iteratiivisesti ja inkrementaalisesti. Scrum-sykli koostuu sprinttien sarjasta, joissa tiimi kehittää, testaa ja julkaisee toimivia ohjelmiston osia. Jokainen sykli alkaa sprintin suunnittelulla ja päättyy sprintin katselmukseen sekä retrospektiiviin, jotka auttavat parantamaan seuraavaa sykliä.
 
 
-
 # Sprintit
 Sprintit on yhden tai kahden viikon mittaisia työjaksoja, joihin valitaan rakennettava ominaisuus alla olevasta työjonosta.
 
@@ -30,4 +29,10 @@ Kaikki projektin tehtävät ja ominaisuudet. Tehtävät kirjoitetaan "User Story
 Traditionaalisesti kokoukset Scrummissa on pidetty ns. Daily Stand-Uppeina, joka on siis päivittäinen max 15min kokous. 
 
 Meidän projektiin malli ei välttämättä ole käytännöllinen. Jokainen tiimin jäsen on täyspäiväinen opiskelija, ja jokaisen aikataulu eroaa toisesta jopa merkittävästi.
+
+Sprintin suunnittelu (Sprint Planning): Sprintin alussa pidettävä kokous, jossa tiimi ja tuoteomistaja valitsevat sprintin aikana tehtävät työt.
+Daily Scrum: Päivittäinen lyhyt kokous, jossa tiimi käy läpi edistymisen, suunnittelee päivän työt ja tunnistaa mahdolliset esteet.
+Sprintin katselmus (Sprint Review): Sprintin lopussa pidettävä kokous, jossa tiimi esittelee valmiin työn sidosryhmille ja kerää palautetta.
+Sprintin retrospektiivi (Sprint Retrospective): Sprintin jälkeen tiimi kokoontuu arvioimaan, mikä meni hyvin ja missä on parannettavaa, ja laatii suunnitelman seuraavan sprintin parantamiseksi.
+
 # Miksi Scrum toimii?
