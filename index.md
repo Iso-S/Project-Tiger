@@ -1,7 +1,7 @@
 # Project-Tiger
 ![alt text](Kuvat/Project-TIGER-tosipieni.png)
 
-Ohjelmistoprojekti 1 kurssin projektirepositorio
+**Ohjelmistoprojekti 1 kurssin projektirepositorio**
 
 
 # Scrum-syklin yleiskuvaus
