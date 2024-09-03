@@ -1,10 +1,5 @@
 # Project-Tiger
 Ohjelmistoprojekti 1 kurssin projektirepositorio
-Heli kirjoitti tähän jotain
-Teppo kirjoitti tähän
-
-Tässä lisää tekstiä
-Vielä lisää tekstiä!
 
 # Scrum-syklin yleiskuvaus
 Scrum on ketterän kehityksen viitekehys, joka mahdollistaa monimutkaisten projektien hallinnan iteratiivisesti ja inkrementaalisesti. Scrum-sykli koostuu sprinttien sarjasta, joissa tiimi kehittää, testaa ja julkaisee toimivia ohjelmiston osia. Jokainen sykli alkaa sprintin suunnittelulla ja päättyy sprintin katselmukseen sekä retrospektiiviin, jotka auttavat parantamaan seuraavaa sykliä.
