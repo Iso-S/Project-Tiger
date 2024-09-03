@@ -1,5 +1,5 @@
 # Project-Tiger
-![alt text](Project-TIGER-tosipieni.png)
+![alt text](Kuvat/Project-TIGER-tosipieni.png)
 
 Ohjelmistoprojekti 1 kurssin projektirepositorio
 
