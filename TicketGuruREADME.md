@@ -1,5 +1,5 @@
-Projektin nimi
-Tiimi: Etunimi Sukunimi, Etunimi Sukunimi
+Tiikerit
+Tiimi: Teppo Halme, Anton Mattila, Markus Ovaska, Heli Saarinen, Ossi Saurio
 
 Johdanto
 Johdantoon kirjoitetaan lyhyt, ytimekäs kuvaus siitä, mikä on projektin aihe, kuka on asiakas (käyttäjä), mitä hän haluaa ja saa järjestelmältä, mitä tekniikoita käytetään ja mitä konkreettisesti on valmiina, kun projekti päättyy.
