@@ -64,8 +64,7 @@ Myyntitapahtuma:
 - myydyt liput
 - tulosta liput
 
-![alt text](Kuvat/Kuvat/Kuvat/TicketGuru_MyyMyyntitapahtuma.png)
-
+![alt text](Kuvat/TicketGuru_MyyMyyntitapahtuma.png)
 
 Myyntiraportti (yksittäisestä tapahtumasta):
 - lipputyyppi, kpl, yhteensä (€)
@@ -73,7 +72,6 @@ Myyntiraportti (yksittäisestä tapahtumasta):
 
 Myyntitapahtumat: 
 - aika, tapahtuman id, summa (€) ja toiminnot: näytä 
-
 
 ![alt text](Kuvat/TicketGuru_MyyntiraporttiTapahtumat.png)
 
