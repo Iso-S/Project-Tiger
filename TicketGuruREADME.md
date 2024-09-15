@@ -34,11 +34,48 @@ Kuvauksissa kannattaa harkita, mikä on toteuttajalle ja asiakkaalle oleellista 
 - Verkkokauppa, jossa asiakkaat voivat ostaa lippuja
 
 # Käyttöliittymä
-Esitetään käyttöliittymän tärkeimmät (vain ne!) näkymät sekä niiden väliset siirtymät käyttöliittymäkaaviona.
+(Esitetään käyttöliittymän tärkeimmät (vain ne!) näkymät sekä niiden väliset siirtymät käyttöliittymäkaaviona.
 
-Jos näkymän tarkoitus ei ole itsestään selvä, se pitää kuvata lyhyesti.
+Jos näkymän tarkoitus ei ole itsestään selvä, se pitää kuvata lyhyesti.)
+
+Tapahtumat:
+- tapahtumat listattuna: aika, kaupunki, kuvaus sekä toiminnot: muokkaa, lipputyypit ja raportti
+- lisää uusi tapahtu Uusi-painikkeella.
+
+Uusi tapahtuma:
+- aika, paikka, kuvaus, kaupunki, lippuja kpl (määrä)
+- tallenna
+
+Lipputyypit:
+- Kuvaus, hinta sekä toiminto: muokkaa
+- uuden lipputyypin voi lisätä, antaa sille hinnan ja tallentaa
 
 ![alt text](Kuvat/Kuvat/TicketGuru_TapahtumatUusiLipputyyppi.png)
+
+
+Myy lippuja:
+- ajankohta, tapahtuman kuvaus
+- myynnissä olevat lipputyypit ja niihin valittavissa haluttu kappalemäärä
+- summa €
+- myy-painike
+
+Myyntitapahtuma:
+- yksittäisen tapahtuman tiedot
+- myydyt liput
+- tulosta liput
+
+![alt text](Kuvat/Kuvat/Kuvat/TicketGuru_MyyMyyntitapahtuma.png)
+
+
+Myyntiraportti (yksittäisestä tapahtumasta):
+- lipputyyppi, kpl, yhteensä (€)
+- myyntitapahtumat-painike
+
+Myyntitapahtumat: 
+- aika, tapahtuman id, summa (€) ja toiminnot: näytä 
+
+
+![alt text](Kuvat/TicketGuru_MyyntiraporttiTapahtumat.png)
 
 # Tietokanta
 Järjestelmään säilöttävä ja siinä käsiteltävät tiedot ja niiden väliset suhteet kuvataan käsitekaaviolla. Käsitemalliin sisältyy myös taulujen välisten viiteyhteyksien ja avainten määritykset. Tietokanta kuvataan käyttäen jotain kuvausmenetelmää, joko ER-kaaviota ja UML-luokkakaaviota.
