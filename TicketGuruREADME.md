@@ -2,19 +2,36 @@ Tiikerit
 Tiimi: Teppo Halme, Anton Mattila, Markus Ovaska, Heli Saarinen, Ossi Saurio
 
 Johdanto
-Johdantoon kirjoitetaan lyhyt, ytimekäs kuvaus siitä, mikä on projektin aihe, kuka on asiakas (käyttäjä), mitä hän haluaa ja saa järjestelmältä, mitä tekniikoita käytetään ja mitä konkreettisesti on valmiina, kun projekti päättyy.
+
+(Johdantoon kirjoitetaan lyhyt, ytimekäs kuvaus siitä, mikä on projektin aihe, kuka on asiakas (käyttäjä), mitä hän haluaa ja saa järjestelmältä, mitä tekniikoita käytetään ja mitä konkreettisesti on valmiina, kun projekti päättyy.
 
 Järjestelmän tarkoitus ja tiivis kuvaus siitä, mistä on kyse ja kenelle järjestelmä on tarkoitettu.
 Toteutus- ja toimintaympäristö lyhyesti:
 Palvelinpuolen ratkaisut ja teknologiat (esim. palvelinteknologia, mikä tietokantajärjestelmä on käytössä)
-Käyttöliittymäratkaisut ja teknologiat (esim. päätelaitteet: puhelin, täppäri, desktop)
+Käyttöliittymäratkaisut ja teknologiat (esim. päätelaitteet: puhelin, täppäri, desktop))
+
+Lipputoimisto on tilannut lipunmyyntijärjestelmän lippujen myymiseen myyntipisteessään. Toimisto voi määritellä järjestelmään tapahtumat, joihin lippuja myydään. Järjestelmän alustava nimi on TicketGuru.
+Lipunmyyntipisteessä lipunmyyjä myy ja tulostaa asiakkaalle liput. Ennakkomyynnin loputtua loput liput tulostetaan ovella myytäviksi. Lipuissa on ovella helposti tarkastettava koodi, jolla lippu voidaan ovella merkitä käytetyksi.
+Jatkokehityksessä järjestelmään aiotaan lisätä verkkokauppa, jolla asiakkaat voivat itse ostaa lippuja.
+Mitä tekniikoita käytetään? 
+Mitä on konkreettisesti valmiina, kun projekti päättyy?
+
+
 Järjestelmän määrittely
-Määrittelyssä järjestelmää tarkastellaan käyttäjän näkökulmasta. Järjestelmän toiminnot hahmotellaan käyttötapausten tai käyttäjätarinoiden kautta, ja kuvataan järjestelmän käyttäjäryhmät.
+(Määrittelyssä järjestelmää tarkastellaan käyttäjän näkökulmasta. Järjestelmän toiminnot hahmotellaan käyttötapausten tai käyttäjätarinoiden kautta, ja kuvataan järjestelmän käyttäjäryhmät.
 
 Lyhyt kuvaus käyttäjäryhmistä (rooleista)
 Käyttäjäroolit ja roolien tarvitsemat toiminnot, esim. käyttötapauskaaviona (use case diagram) tai käyttäjätarinoina.
 Lyhyt kuvaus käyttötapauksista tai käyttäjätarinat
-Kuvauksissa kannattaa harkita, mikä on toteuttajalle ja asiakkaalle oleellista tietoa ja keskittyä siihen.
+
+Kuvauksissa kannattaa harkita, mikä on toteuttajalle ja asiakkaalle oleellista tietoa ja keskittyä siihen.)
+
+- Toimisto voi lisätä tapahtumat, joihin myydään lippuja
+- Lipunmyyjä myy lipun
+- Lipunmyyjä tulostaa lipun
+- Myymättä jääneet liput tulostetaan
+- Lipuissa on koodi, jolla lippu voidaan ovella merkitä käytetyksi
+- Verkkokauppa, jossa asiakkaat voivat ostaa lippuja
 
 Käyttöliittymä
 Esitetään käyttöliittymän tärkeimmät (vain ne!) näkymät sekä niiden väliset siirtymät käyttöliittymäkaaviona.
