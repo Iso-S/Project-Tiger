@@ -50,8 +50,7 @@ Lipputyypit:
 - Kuvaus, hinta sekä toiminto: muokkaa
 - uuden lipputyypin voi lisätä, antaa sille hinnan ja tallentaa
 
-![alt text](Kuvat/Kuvat/TicketGuru_TapahtumatUusiLipputyyppi.png)
-
+![alt text](Kuvat/TicketGuru_TapahtumatUusiLipputyyppi.png)
 
 Myy lippuja:
 - ajankohta, tapahtuman kuvaus
