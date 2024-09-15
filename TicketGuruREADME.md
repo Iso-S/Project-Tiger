@@ -38,6 +38,8 @@ Esitetään käyttöliittymän tärkeimmät (vain ne!) näkymät sekä niiden v�
 
 Jos näkymän tarkoitus ei ole itsestään selvä, se pitää kuvata lyhyesti.
 
+![alt text](Kuvat/Kuvat/TicketGuru_TapahtumatUusiLipputyyppi.png)
+
 # Tietokanta
 Järjestelmään säilöttävä ja siinä käsiteltävät tiedot ja niiden väliset suhteet kuvataan käsitekaaviolla. Käsitemalliin sisältyy myös taulujen välisten viiteyhteyksien ja avainten määritykset. Tietokanta kuvataan käyttäen jotain kuvausmenetelmää, joko ER-kaaviota ja UML-luokkakaaviota.
 
