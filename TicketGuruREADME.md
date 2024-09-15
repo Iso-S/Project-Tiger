@@ -1,7 +1,7 @@
 Tiikerit
 Tiimi: Teppo Halme, Anton Mattila, Markus Ovaska, Heli Saarinen, Ossi Saurio
 
-Johdanto
+# Johdanto
 
 (Johdantoon kirjoitetaan lyhyt, ytimekäs kuvaus siitä, mikä on projektin aihe, kuka on asiakas (käyttäjä), mitä hän haluaa ja saa järjestelmältä, mitä tekniikoita käytetään ja mitä konkreettisesti on valmiina, kun projekti päättyy.
 
@@ -17,7 +17,7 @@ Mitä tekniikoita käytetään?
 Mitä on konkreettisesti valmiina, kun projekti päättyy?
 
 
-Järjestelmän määrittely
+# Järjestelmän määrittely
 (Määrittelyssä järjestelmää tarkastellaan käyttäjän näkökulmasta. Järjestelmän toiminnot hahmotellaan käyttötapausten tai käyttäjätarinoiden kautta, ja kuvataan järjestelmän käyttäjäryhmät.
 
 Lyhyt kuvaus käyttäjäryhmistä (rooleista)
@@ -33,12 +33,12 @@ Kuvauksissa kannattaa harkita, mikä on toteuttajalle ja asiakkaalle oleellista 
 - Lipuissa on koodi, jolla lippu voidaan ovella merkitä käytetyksi
 - Verkkokauppa, jossa asiakkaat voivat ostaa lippuja
 
-Käyttöliittymä
+# Käyttöliittymä
 Esitetään käyttöliittymän tärkeimmät (vain ne!) näkymät sekä niiden väliset siirtymät käyttöliittymäkaaviona.
 
 Jos näkymän tarkoitus ei ole itsestään selvä, se pitää kuvata lyhyesti.
 
-Tietokanta
+# Tietokanta
 Järjestelmään säilöttävä ja siinä käsiteltävät tiedot ja niiden väliset suhteet kuvataan käsitekaaviolla. Käsitemalliin sisältyy myös taulujen välisten viiteyhteyksien ja avainten määritykset. Tietokanta kuvataan käyttäen jotain kuvausmenetelmää, joko ER-kaaviota ja UML-luokkakaaviota.
 
 Lisäksi kukin järjestelmän tietoelementti ja sen attribuutit kuvataan tietohakemistossa. Tietohakemisto tarkoittaa yksinkertaisesti vain jokaisen elementin (taulun) ja niiden attribuuttien (kentät/sarakkeet) listausta ja lyhyttä kuvausta esim. tähän tyyliin:
@@ -51,7 +51,8 @@ id	int PK	Tilin id
 nimimerkki	varchar(30)	Tilin nimimerkki
 avatar	int FK	Tilin avatar, viittaus avatar-tauluun
 kayttaja	int FK	Viittaus käyttäjään käyttäjä-taulussa
-Tekninen kuvaus
+
+# Tekninen kuvaus
 Teknisessä kuvauksessa esitetään järjestelmän toteutuksen suunnittelussa tehdyt tekniset ratkaisut, esim.
 
 Missä mikäkin järjestelmän komponentti ajetaan (tietokone, palvelinohjelma) ja komponenttien väliset yhteydet (vaikkapa tähän tyyliin: https://security.ufl.edu/it-workers/risk-assessment/creating-an-information-systemdata-flow-diagram/)
@@ -63,12 +64,13 @@ Tämän lisäksi
 ohjelmakoodin tulee olla kommentoitua
 luokkien, metodien ja muuttujien tulee olla kuvaavasti nimettyjä ja noudattaa johdonmukaisia nimeämiskäytäntöjä
 ohjelmiston pitää olla organisoitu komponentteihin niin, että turhalta toistolta vältytään
-Testaus
+
+# Testaus
 Tässä kohdin selvitetään, miten ohjelmiston oikea toiminta varmistetaan testaamalla projektin aikana: millaisia testauksia tehdään ja missä vaiheessa. Testauksen tarkemmat sisällöt ja testisuoritusten tulosten raportit kirjataan erillisiin dokumentteihin.
 
 Tänne kirjataan myös lopuksi järjestelmän tunnetut ongelmat, joita ei ole korjattu.
 
-Asennustiedot
+# Asennustiedot
 Järjestelmän asennus on syytä dokumentoida kahdesta näkökulmasta:
 
 järjestelmän kehitysympäristö: miten järjestelmän kehitysympäristön saisi rakennettua johonkin toiseen koneeseen
@@ -77,7 +79,7 @@ järjestelmän asentaminen tuotantoympäristöön: miten järjestelmän saisi as
 
 Asennusohjeesta tulisi ainakin käydä ilmi, miten käytettävä tietokanta ja käyttäjät tulee ohjelmistoa asentaessa määritellä (käytettävä tietokanta, käyttäjätunnus, salasana, tietokannan luonti yms.).
 
-Käynnistys- ja käyttöohje
+# Käynnistys- ja käyttöohje
 Tyypillisesti tässä riittää kertoa ohjelman käynnistykseen tarvittava URL sekä mahdolliset kirjautumiseen tarvittavat tunnukset. Jos järjestelmän käynnistämiseen tai käyttöön liittyy joitain muita toimenpiteitä tai toimintajärjestykseen liittyviä asioita, nekin kerrotaan tässä yhteydessä.
 
 Usko tai älä, tulet tarvitsemaan tätä itsekin, kun tauon jälkeen palaat järjestelmän pariin !
