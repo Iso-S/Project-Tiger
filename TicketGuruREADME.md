@@ -4,6 +4,15 @@ Tiimi: Teppo Halme, Anton Mattila, Markus Ovaska, Heli Saarinen, Ossi Saurio
 Johdanto
 Johdantoon kirjoitetaan lyhyt, ytimekäs kuvaus siitä, mikä on projektin aihe, kuka on asiakas (käyttäjä), mitä hän haluaa ja saa järjestelmältä, mitä tekniikoita käytetään ja mitä konkreettisesti on valmiina, kun projekti päättyy.
 
+Projektin aiheena on TicketGuru lipunmyyntijärjestelmä. Asiakkaana toimii lipunmyyntitoimisto, jonka vaatimukset järjestelmälle ovat seuraavat:
+Asiakas voi itse lisätä tapahtumat lippujärjestelmään.
+Myyntipisteessä työntekijä voi järjestelmän kautta valita, myydä ja tulostaa halutun lipun.
+Lipuissa on koodi jolla lippu voidaan merkata käytetyksi, esim QR-koodi tai vastaava.
+Myöhemmin järjestelmään lisäyksessä myös verkkokauppa.
+Järjestelmä toteutetaan Spring Boot projektina GitHubin kautta Scrum menetelmää hyödyntäen.
+Projektin päätyttyä valmiina on lipunmyyntijärjestelmä, joka toimii ongelmitta ja täyttää kaikki asiakkaan vaatimukset.
+
+
 Järjestelmän tarkoitus ja tiivis kuvaus siitä, mistä on kyse ja kenelle järjestelmä on tarkoitettu.
 Toteutus- ja toimintaympäristö lyhyesti:
 Palvelinpuolen ratkaisut ja teknologiat (esim. palvelinteknologia, mikä tietokantajärjestelmä on käytössä)
