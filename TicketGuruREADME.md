@@ -1,27 +1,126 @@
 Tiikerit
 Tiimi: Teppo Halme, Anton Mattila, Markus Ovaska, Heli Saarinen, Ossi Saurio
 
-Johdanto
-Johdantoon kirjoitetaan lyhyt, ytimekäs kuvaus siitä, mikä on projektin aihe, kuka on asiakas (käyttäjä), mitä hän haluaa ja saa järjestelmältä, mitä tekniikoita käytetään ja mitä konkreettisesti on valmiina, kun projekti päättyy.
+# Johdanto
+
+(Johdantoon kirjoitetaan lyhyt, ytimekäs kuvaus siitä, mikä on projektin aihe, kuka on asiakas (käyttäjä), mitä hän haluaa ja saa järjestelmältä, mitä tekniikoita käytetään ja mitä konkreettisesti on valmiina, kun projekti päättyy.
 
 Järjestelmän tarkoitus ja tiivis kuvaus siitä, mistä on kyse ja kenelle järjestelmä on tarkoitettu.
 Toteutus- ja toimintaympäristö lyhyesti:
 Palvelinpuolen ratkaisut ja teknologiat (esim. palvelinteknologia, mikä tietokantajärjestelmä on käytössä)
-Käyttöliittymäratkaisut ja teknologiat (esim. päätelaitteet: puhelin, täppäri, desktop)
-Järjestelmän määrittely
-Määrittelyssä järjestelmää tarkastellaan käyttäjän näkökulmasta. Järjestelmän toiminnot hahmotellaan käyttötapausten tai käyttäjätarinoiden kautta, ja kuvataan järjestelmän käyttäjäryhmät.
+Käyttöliittymäratkaisut ja teknologiat (esim. päätelaitteet: puhelin, täppäri, desktop))
 
-Lyhyt kuvaus käyttäjäryhmistä (rooleista)
-Käyttäjäroolit ja roolien tarvitsemat toiminnot, esim. käyttötapauskaaviona (use case diagram) tai käyttäjätarinoina.
-Lyhyt kuvaus käyttötapauksista tai käyttäjätarinat
-Kuvauksissa kannattaa harkita, mikä on toteuttajalle ja asiakkaalle oleellista tietoa ja keskittyä siihen.
+Lipputoimisto on tilannut lipunmyyntijärjestelmän lippujen myymiseen myyntipisteessään. Toimisto voi määritellä järjestelmään tapahtumat, joihin lippuja myydään. Järjestelmän alustava nimi on TicketGuru.
+Lipunmyyntipisteessä lipunmyyjä myy ja tulostaa asiakkaalle liput. Ennakkomyynnin loputtua loput liput tulostetaan ovella myytäviksi. Lipuissa on ovella helposti tarkastettava koodi, jolla lippu voidaan ovella merkitä käytetyksi.
+Jatkokehityksessä järjestelmään aiotaan lisätä verkkokauppa, jolla asiakkaat voivat itse ostaa lippuja.
+Mitä tekniikoita käytetään? 
+Mitä on konkreettisesti valmiina, kun projekti päättyy?
 
-Käyttöliittymä
-Esitetään käyttöliittymän tärkeimmät (vain ne!) näkymät sekä niiden väliset siirtymät käyttöliittymäkaaviona.
 
-Jos näkymän tarkoitus ei ole itsestään selvä, se pitää kuvata lyhyesti.
+# Järjestelmän määrittely
 
-Tietokanta
+# Alustavat käyttäjätarinat
+
+# Lipunmyyjä
+
+Roolissani lipunmyyjä, haluan valita asiakkaan haluaman tapahtuman järjestelmän tarjoamasta valikoimasta, niin että voin myydä lippuja useampaan eri tapahtumaan.
+
+Roolissani lipunmyyjä, haluan määritellä kuinka monta aikuista ja lasta haluaa ostaa lipun, niin että myyntitapahtuma voidaan tarvittaessa tehdä ryhmissä.
+
+Roolissani lipunmyyjä, haluan nähdä transaktion tiedot tapahtuman jälkeen, niin että voin todeta tiedot oikeaksi niin itselleni kuin asiakkaalle.
+
+Roolissani lipunmyyjä, haluan tulostaa asiakkaalle liput transaktion mennessä läpi, niin että asiakas saa fyysisen todisteen ostoksestaan.
+
+
+
+# Toimisto
+
+Roolissani toimisto, haluan nähdä katalogin kaikista aktiivisista tapahtumista, niin että tiedän mihin kaikkeen lippuja tällä hetkellä myydään.
+
+Roolissani toimisto, haluan luoda ja poistaa tapahtumia, niin että voin ylläpitää katalogia ajan tasalla.
+
+Roolissani toimisto, haluan luodessani tapahtumaa määrittää ajan, paikan, kuvauksen, kohdekaupungin ja lippumäärän, niin että pystyn tarkasti määrittelemään jokaisen uuden tapahtuman.
+
+Roolissani toimisto, pystyn määritellä ja muokkaa lipputyyppejä, ja lisätä uusia esim. "varusmies" -tyyppejä. Näin pystyn tarvittaessa houkuttelemaan tiettyjä kohderyhmiä mukaan tapahtumiin.
+
+Roolissani toimisto, pystyn vetämään tulostettavia raportteja jokaisesta aktiivisesta ja päättyneestä tapahtumasta, niin että pystyn suorittamaan data-analytiikkaa ja kehittämään liiketoimintaa tapahtumien menestyksen perusteella.
+
+Roolissani toimisto, pystyn näkemään kaikki myyntitapahtumat helposti aktiivisten ja päättyneiden tapahtumien raportti sivulta, niin että pystyn tarvittaessa todentamaan uniikkeja transaktioita esim. asiakaspalvelutilanteissa.
+
+Roolissani toimisto, haluan nähdä tapahtumahistorian jossa näkyy kaikki päättyneet tapahtumat, niin että pystyn palata ajassa taaksepäin vetämään esim. raportteja ja näkemään muita tietoja.
+
+# Asiakas
+
+Roolissani asiakas, haluan tarkastella tulevia tapahtumia itsenäisesti internetistä sekä nähdä tapahtumien lipputyypit ja hinnat.
+
+Roolissani asiakas, haluan ongelmatilanteissa helpon väylän saada yhteyden lipputoimiston asiakaspalveluun.
+
+Roolissani asiakas, haluan tarkastella omia varauksiani sekä hallinnoida näitä.
+
+Roolissani asiakas, haluan hakea tapahtumia eri hakusuodattimilla, jotta löydän oikean alueen sekä ajan tapahtumat omien kriteerieni mukaisesti.
+
+Roolissani asiakas, tahdon ladata lippuni sähköisesti laitteelleni kätevästi nettisivulta.
+
+Roolissani asiakas, tahdon saada sähköpostivahvistuksen maksutapahtumistani.
+
+# Tapahtumanjärjestäjä
+
+Roolissani tapahtumanjärjestäjä, tahdon reaaliaikaisesti seurata tapahtumani lipunmyyntiä.
+
+Roolissani tapahtumanjärjestäjä, tahdon kasvattaa tai laskea lippukapasiteettia lipunmyyntipalvelussa mahdollisten muutoksien myötä tapahtumaa järjestäessä.
+
+Roolissani tapahtumanjärjestäjä, tahdon lisätä eri lipputyyppejä sekä hinnoittelumalleja (mm. early bird- sekä VIP-liput)
+
+
+- Toimisto voi lisätä tapahtumat, joihin myydään lippuja
+- Lipunmyyjä myy lipun
+- Lipunmyyjä tulostaa lipun
+- Myymättä jääneet liput tulostetaan
+- Lipuissa on koodi, jolla lippu voidaan ovella merkitä käytetyksi
+- Verkkokauppa, jossa asiakkaat voivat ostaa lippuja
+
+# Käyttöliittymä
+(Esitetään käyttöliittymän tärkeimmät (vain ne!) näkymät sekä niiden väliset siirtymät käyttöliittymäkaaviona.
+
+Jos näkymän tarkoitus ei ole itsestään selvä, se pitää kuvata lyhyesti.)
+
+Tapahtumat:
+- tapahtumat listattuna: aika, kaupunki, kuvaus sekä toiminnot: muokkaa, lipputyypit ja raportti
+- lisää uusi tapahtu Uusi-painikkeella.
+
+Uusi tapahtuma:
+- aika, paikka, kuvaus, kaupunki, lippuja kpl (määrä)
+- tallenna
+
+Lipputyypit:
+- Kuvaus, hinta sekä toiminto: muokkaa
+- uuden lipputyypin voi lisätä, antaa sille hinnan ja tallentaa
+
+![alt text](Kuvat/TicketGuru_TapahtumatUusiLipputyyppi.png)
+
+Myy lippuja:
+- ajankohta, tapahtuman kuvaus
+- myynnissä olevat lipputyypit ja niihin valittavissa haluttu kappalemäärä
+- summa €
+- myy-painike
+
+Myyntitapahtuma:
+- yksittäisen tapahtuman tiedot
+- myydyt liput
+- tulosta liput
+
+![alt text](Kuvat/TicketGuru_MyyMyyntitapahtuma.png)
+
+Myyntiraportti (yksittäisestä tapahtumasta):
+- lipputyyppi, kpl, yhteensä (€)
+- myyntitapahtumat-painike
+
+Myyntitapahtumat: 
+- aika, tapahtuman id, summa (€) ja toiminnot: näytä 
+
+![alt text](Kuvat/TicketGuru_MyyntiraporttiTapahtumat.png)
+
+# Tietokanta
 Järjestelmään säilöttävä ja siinä käsiteltävät tiedot ja niiden väliset suhteet kuvataan käsitekaaviolla. Käsitemalliin sisältyy myös taulujen välisten viiteyhteyksien ja avainten määritykset. Tietokanta kuvataan käyttäen jotain kuvausmenetelmää, joko ER-kaaviota ja UML-luokkakaaviota.
 
 Lisäksi kukin järjestelmän tietoelementti ja sen attribuutit kuvataan tietohakemistossa. Tietohakemisto tarkoittaa yksinkertaisesti vain jokaisen elementin (taulun) ja niiden attribuuttien (kentät/sarakkeet) listausta ja lyhyttä kuvausta esim. tähän tyyliin:
@@ -34,7 +133,8 @@ id	int PK	Tilin id
 nimimerkki	varchar(30)	Tilin nimimerkki
 avatar	int FK	Tilin avatar, viittaus avatar-tauluun
 kayttaja	int FK	Viittaus käyttäjään käyttäjä-taulussa
-Tekninen kuvaus
+
+# Tekninen kuvaus
 Teknisessä kuvauksessa esitetään järjestelmän toteutuksen suunnittelussa tehdyt tekniset ratkaisut, esim.
 
 Missä mikäkin järjestelmän komponentti ajetaan (tietokone, palvelinohjelma) ja komponenttien väliset yhteydet (vaikkapa tähän tyyliin: https://security.ufl.edu/it-workers/risk-assessment/creating-an-information-systemdata-flow-diagram/)
@@ -46,12 +146,13 @@ Tämän lisäksi
 ohjelmakoodin tulee olla kommentoitua
 luokkien, metodien ja muuttujien tulee olla kuvaavasti nimettyjä ja noudattaa johdonmukaisia nimeämiskäytäntöjä
 ohjelmiston pitää olla organisoitu komponentteihin niin, että turhalta toistolta vältytään
-Testaus
+
+# Testaus
 Tässä kohdin selvitetään, miten ohjelmiston oikea toiminta varmistetaan testaamalla projektin aikana: millaisia testauksia tehdään ja missä vaiheessa. Testauksen tarkemmat sisällöt ja testisuoritusten tulosten raportit kirjataan erillisiin dokumentteihin.
 
 Tänne kirjataan myös lopuksi järjestelmän tunnetut ongelmat, joita ei ole korjattu.
 
-Asennustiedot
+# Asennustiedot
 Järjestelmän asennus on syytä dokumentoida kahdesta näkökulmasta:
 
 järjestelmän kehitysympäristö: miten järjestelmän kehitysympäristön saisi rakennettua johonkin toiseen koneeseen
@@ -60,7 +161,7 @@ järjestelmän asentaminen tuotantoympäristöön: miten järjestelmän saisi as
 
 Asennusohjeesta tulisi ainakin käydä ilmi, miten käytettävä tietokanta ja käyttäjät tulee ohjelmistoa asentaessa määritellä (käytettävä tietokanta, käyttäjätunnus, salasana, tietokannan luonti yms.).
 
-Käynnistys- ja käyttöohje
+# Käynnistys- ja käyttöohje
 Tyypillisesti tässä riittää kertoa ohjelman käynnistykseen tarvittava URL sekä mahdolliset kirjautumiseen tarvittavat tunnukset. Jos järjestelmän käynnistämiseen tai käyttöön liittyy joitain muita toimenpiteitä tai toimintajärjestykseen liittyviä asioita, nekin kerrotaan tässä yhteydessä.
 
 Usko tai älä, tulet tarvitsemaan tätä itsekin, kun tauon jälkeen palaat järjestelmän pariin !
