@@ -30,15 +30,15 @@ Roolissani toimisto, haluan nähdä tapahtumahistorian jossa näkyy kaikki pää
 
 # Asiakas
 
-Roolissani asiakas, haluan tarkastella tulevia tapahtumia itsenäisesti internetistä sekä nähdä tapahtumien lipputyypit sekä hinnat.
+Roolissani asiakas, haluan tarkastella tulevia tapahtumia itsenäisesti internetistä sekä nähdä tapahtumien lipputyypit ja hinnat.
 
 Roolissani asiakas, haluan ongelmatilanteissa helpon väylän saada yhteyden lipputoimiston asiakaspalveluun.
 
 Roolissani asiakas, haluan tarkastella omia varauksiani sekä hallinnoida näitä.
 
-Roolissani asiakas, haluan hakea tapahtumia eri hakusuodattimilla, jotta löydän oikean alueen, ajan sekä paikan tapahtumat omien kriteereitten mukaisesti.
+Roolissani asiakas, haluan hakea tapahtumia eri hakusuodattimilla, jotta löydän oikean alueen sekä ajan tapahtumat omien kriteerieni mukaisesti.
 
-Roolissani asiakas, tahdon ladata lippuni sähköisesti laitteelleni.
+Roolissani asiakas, tahdon ladata lippuni sähköisesti laitteelleni kätevästi nettisivulta.
 
 Roolissani asiakas, tahdon saada sähköpostivahvistuksen maksutapahtumistani.
 
@@ -48,4 +48,4 @@ Roolissani tapahtumanjärjestäjä, tahdon reaaliaikaisesti seurata tapahtumani 
 
 Roolissani tapahtumanjärjestäjä, tahdon kasvattaa tai laskea lippukapasiteettia lipunmyyntipalvelussa mahdollisten muutoksien myötä tapahtumaa järjestäessä.
 
-Roolissani tapahtumanjärjestäjä, tahdon lisätä eri lipputyyppejä sekä hinnoittelumalleja 
+Roolissani tapahtumanjärjestäjä, tahdon lisätä eri lipputyyppejä sekä hinnoittelumalleja (mm. early bird- sekä VIP-liput)
