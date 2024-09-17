@@ -29,3 +29,23 @@ Roolissani toimisto, pystyn näkemään kaikki myyntitapahtumat helposti aktiivi
 Roolissani toimisto, haluan nähdä tapahtumahistorian jossa näkyy kaikki päättyneet tapahtumat, niin että pystyn palata ajassa taaksepäin vetämään esim. raportteja ja näkemään muita tietoja.
 
 # Asiakas
+
+Roolissani asiakas, haluan tarkastella tulevia tapahtumia itsenäisesti internetistä sekä nähdä tapahtumien lipputyypit sekä hinnat.
+
+Roolissani asiakas, haluan ongelmatilanteissa helpon väylän saada yhteyden lipputoimiston asiakaspalveluun.
+
+Roolissani asiakas, haluan tarkastella omia varauksiani sekä hallinnoida näitä.
+
+Roolissani asiakas, haluan hakea tapahtumia eri hakusuodattimilla, jotta löydän oikean alueen, ajan sekä paikan tapahtumat omien kriteereitten mukaisesti.
+
+Roolissani asiakas, tahdon ladata lippuni sähköisesti laitteelleni.
+
+Roolissani asiakas, tahdon saada sähköpostivahvistuksen maksutapahtumistani.
+
+# Tapahtumanjärjestäjä
+
+Roolissani tapahtumanjärjestäjä, tahdon reaaliaikaisesti seurata tapahtumani lipunmyyntiä.
+
+Roolissani tapahtumanjärjestäjä, tahdon kasvattaa tai laskea lippukapasiteettia lipunmyyntipalvelussa mahdollisten muutoksien myötä tapahtumaa järjestäessä.
+
+Roolissani tapahtumanjärjestäjä, tahdon lisätä eri lipputyyppejä sekä hinnoittelumalleja 
