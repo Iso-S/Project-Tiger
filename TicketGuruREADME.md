@@ -120,6 +120,9 @@ Myyntitapahtumat:
 
 ![alt text](Kuvat/TicketGuru_MyyntiraporttiTapahtumat.png)
 
+Yleiskuva käyttöliittymästä:
+![alt text](Kuvat/Käyttöliittymäkaava.png)
+
 # Tietokanta
 Järjestelmään säilöttävä ja siinä käsiteltävät tiedot ja niiden väliset suhteet kuvataan käsitekaaviolla. Käsitemalliin sisältyy myös taulujen välisten viiteyhteyksien ja avainten määritykset. Tietokanta kuvataan käyttäen jotain kuvausmenetelmää, joko ER-kaaviota ja UML-luokkakaaviota.
 
