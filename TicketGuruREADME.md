@@ -127,18 +127,62 @@ Yleiskuva käyttöliittymästä:
 
 ![alt text](Kuvat/tietokanta.png)
 
-Järjestelmään säilöttävä ja siinä käsiteltävät tiedot ja niiden väliset suhteet kuvataan käsitekaaviolla. Käsitemalliin sisältyy myös taulujen välisten viiteyhteyksien ja avainten määritykset. Tietokanta kuvataan käyttäen jotain kuvausmenetelmää, joko ER-kaaviota ja UML-luokkakaaviota.
+Tietokantaan säilytään laajasti tietoja, niin tapahtumista kuin tapahtumien asiakkaista. Yllä olevassa käsitemallissa on mallinnettu käsiteltävät tiedot.
 
-Lisäksi kukin järjestelmän tietoelementti ja sen attribuutit kuvataan tietohakemistossa. Tietohakemisto tarkoittaa yksinkertaisesti vain jokaisen elementin (taulun) ja niiden attribuuttien (kentät/sarakkeet) listausta ja lyhyttä kuvausta esim. tähän tyyliin:
+Tietohakemisto kirjallisena:
 
-Tilit
-Tilit-taulu sisältää käyttäjätilit. Käyttäjällä voi olla monta tiliä. Tili kuuluu aina vain yhdelle käyttäjälle.
 
-Kenttä	Tyyppi	Kuvaus
-id	int PK	Tilin id
-nimimerkki	varchar(30)	Tilin nimimerkki
-avatar	int FK	Tilin avatar, viittaus avatar-tauluun
-kayttaja	int FK	Viittaus käyttäjään käyttäjä-taulussa
+**1. Kaupungit**
+Kaupunki-taulu sisältää paikkakunnat jossa tapahtumia voi sijaita.
+
+kaupunki_id (PK): Kaupungin tunniste, ensisijainen avain
+kaupunki: Kaupungin nimi
+
+
+**2. Tapahtumat**
+Tapahtumat-taulu sisältää tapahtumat ja niille kriittiset tiedot.
+
+tapahtuma_id (PK): Tapahtuman tunniste, ensisijainen avain
+alkuaika: Tapahtuman alkuaika
+loppuaika: Tapahtuman loppuaika
+FK kaupunki_id: Viiteavain kaupunki-tauluun
+kuvaus: Tapahtuman kuvaus
+liput_id: Viite lippuihin
+FK status_id: Viiteavain statukset-tauluun
+
+
+**3. Statukset**
+Statukset-taulu sisältää tapahtuman aktiivisen statuksen (Ostettavana, lipunmyynti päättynyt, loppuunmyyty)
+
+status_id (PK): Statuksen tunniste, ensisijainen avain
+status: Statuksen kuvaus
+
+
+**4. TapahtumanLipputyypit**
+TapahtumanLipputyypit-taulu sisältää tapahtuman kaikki mahdolliset lipputyypit hintoineen ja kuvauksineen.
+
+tapahtumalipputyyppi_id (PK): Lipputyypin tunniste, ensisijainen avain
+FK tapahtuma_id: Viiteavain tapahtumat-tauluun
+hinta: Lipun hinta
+kuvaus: Lipputyypin kuvaus
+
+
+**5. Liput**
+Liput-taulu sisältää lipun tiedot.
+
+lippu_id (PK): Lipun tunniste, ensisijainen avain
+FK tapahtumalipputyyppi_id: Viiteavain taphtumanlipputyypit-tauluun
+ostoaika: Aika, jolloin lippu on ostettu
+myytavana: Ilmaisee, onko lippu myytävänä
+myyty: Ilmaisee, montako lippua on myyty.
+
+
+**Viiteavaimet (Foreign Keys):**
+Taphtumat.kaupunki_id viittaa tauluun Kaupungit.kaupunki_id
+Taphtumat.status_id viittaa tauluun Statukset.status_id
+TaphtumanLipputyypit.tapahtuma_id viittaa tauluun Taphtumat.tapahtuma_id
+Liput.tapahtumalipputyyppi_id viittaa tauluun TaphtumanLipputyypit.tapahtumalipputyyppi_id
+
 
 # Tekninen kuvaus
 Teknisessä kuvauksessa esitetään järjestelmän toteutuksen suunnittelussa tehdyt tekniset ratkaisut, esim.
