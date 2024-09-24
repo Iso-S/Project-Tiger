@@ -134,47 +134,42 @@ Tietokantaan säilytään laajasti tietoja, niin tapahtumista kuin tapahtumien a
 
 **1. Kaupungit**
 Kaupunki-taulu sisältää paikkakunnat jossa tapahtumia voi sijaita.
-
-kaupunki_id (PK): Kaupungin tunniste, ensisijainen avain
-kaupunki: Kaupungin nimi
+- kaupunki_id (PK): Kaupungin tunniste, ensisijainen avain
+- kaupunki: Kaupungin nimi
 
 
 **2. Tapahtumat**
 Tapahtumat-taulu sisältää tapahtumat ja niille kriittiset tiedot.
-
-tapahtuma_id (PK): Tapahtuman tunniste, ensisijainen avain
-alkuaika: Tapahtuman alkuaika
-loppuaika: Tapahtuman loppuaika
-FK kaupunki_id: Viiteavain kaupunki-tauluun
-kuvaus: Tapahtuman kuvaus
-liput_id: Viite lippuihin
-FK status_id: Viiteavain statukset-tauluun
+- tapahtuma_id (PK): Tapahtuman tunniste, ensisijainen avain
+- alkuaika: Tapahtuman alkuaika
+- loppuaika: Tapahtuman loppuaika
+- FK kaupunki_id: Viiteavain kaupunki-tauluun
+- kuvaus: Tapahtuman kuvaus
+- liput_id: Viite lippuihin
+- FK status_id: Viiteavain statukset-tauluun
 
 
 **3. Statukset**
 Statukset-taulu sisältää tapahtuman aktiivisen statuksen (Ostettavana, lipunmyynti päättynyt, loppuunmyyty)
-
-status_id (PK): Statuksen tunniste, ensisijainen avain
-status: Statuksen kuvaus
+- status_id (PK): Statuksen tunniste, ensisijainen avain
+- status: Statuksen kuvaus
 
 
 **4. TapahtumanLipputyypit**
-TapahtumanLipputyypit-taulu sisältää tapahtuman kaikki mahdolliset lipputyypit hintoineen ja kuvauksineen.
-
-tapahtumalipputyyppi_id (PK): Lipputyypin tunniste, ensisijainen avain
-FK tapahtuma_id: Viiteavain tapahtumat-tauluun
-hinta: Lipun hinta
-kuvaus: Lipputyypin kuvaus
+TapahtumanLipputyypit-taulu sisältää tapahtuman kaikki mahdolliset lipputyypit hintoineen ja kuvauksineen
+- tapahtumalipputyyppi_id (PK): Lipputyypin tunniste, ensisijainen avain
+- FK tapahtuma_id: Viiteavain tapahtumat-tauluun
+- hinta: Lipun hinta
+- kuvaus: Lipputyypin kuvaus
 
 
 **5. Liput**
 Liput-taulu sisältää lipun tiedot.
-
-lippu_id (PK): Lipun tunniste, ensisijainen avain
-FK tapahtumalipputyyppi_id: Viiteavain taphtumanlipputyypit-tauluun
-ostoaika: Aika, jolloin lippu on ostettu
-myytavana: Ilmaisee, onko lippu myytävänä
-myyty: Ilmaisee, montako lippua on myyty.
+- lippu_id (PK): Lipun tunniste, ensisijainen avain
+- FK tapahtumalipputyyppi_id: Viiteavain taphtumanlipputyypit-tauluun
+- ostoaika: Aika, jolloin lippu on ostettu
+- myytavana: Ilmaisee, onko lippu myytävänä
+- myyty: Ilmaisee, montako lippua on myyty.
 
 
 **Viiteavaimet (Foreign Keys):**
