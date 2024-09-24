@@ -19,7 +19,7 @@ Myymättä jääneet liput tulostetaan
 Lipuissa on koodi, jolla lippu voidaan ovella merkitä käytetyksi
 Verkkokauppa, jossa asiakkaat voivat ostaa lippuja
 
-# Lipunmyyjä
+# Lipunmyyjä (Alustavat käyttäjätarinat)
 
 Roolissani lipunmyyjä, haluan valita asiakkaan haluaman tapahtuman järjestelmän tarjoamasta valikoimasta, niin että voin myydä lippuja useampaan eri tapahtumaan.
 
@@ -31,7 +31,7 @@ Roolissani lipunmyyjä, haluan tulostaa asiakkaalle liput transaktion mennessä 
 
 
 
-# Toimisto
+# Toimisto (Alustavat käyttäjätarinat)
 
 Roolissani toimisto, haluan nähdä katalogin kaikista aktiivisista tapahtumista, niin että tiedän mihin kaikkeen lippuja tällä hetkellä myydään.
 
@@ -47,7 +47,7 @@ Roolissani toimisto, pystyn näkemään kaikki myyntitapahtumat helposti aktiivi
 
 Roolissani toimisto, haluan nähdä tapahtumahistorian jossa näkyy kaikki päättyneet tapahtumat, niin että pystyn palata ajassa taaksepäin vetämään esim. raportteja ja näkemään muita tietoja.
 
-# Asiakas
+# Asiakas (Alustavat käyttäjätarinat)
 
 Roolissani asiakas, haluan tarkastella tulevia tapahtumia itsenäisesti internetistä sekä nähdä tapahtumien lipputyypit ja hinnat.
 
@@ -61,7 +61,7 @@ Roolissani asiakas, tahdon ladata lippuni sähköisesti laitteelleni kätevästi
 
 Roolissani asiakas, tahdon saada sähköpostivahvistuksen maksutapahtumistani.
 
-# Tapahtumanjärjestäjä
+# Tapahtumanjärjestäjä (Alustavat käyttäjätarinat)
 
 Roolissani tapahtumanjärjestäjä, tahdon reaaliaikaisesti seurata tapahtumani lipunmyyntiä.
 
