@@ -171,10 +171,10 @@ Liput-taulu sisältää lipun tiedot.
 
 
 **Viiteavaimet (Foreign Keys):**
-Taphtumat.kaupunki_id viittaa tauluun Kaupungit.kaupunki_id
-Taphtumat.status_id viittaa tauluun Statukset.status_id
-TaphtumanLipputyypit.tapahtuma_id viittaa tauluun Taphtumat.tapahtuma_id
-Liput.tapahtumalipputyyppi_id viittaa tauluun TaphtumanLipputyypit.tapahtumalipputyyppi_id
+- Taphtumat.kaupunki_id viittaa tauluun Kaupungit.kaupunki_id
+- Taphtumat.status_id viittaa tauluun Statukset.status_id
+- TaphtumanLipputyypit.tapahtuma_id viittaa tauluun Taphtumat.tapahtuma_id
+- Liput.tapahtumalipputyyppi_id viittaa tauluun TaphtumanLipputyypit.tapahtumalipputyyppi_id
 
 
 # Tekninen kuvaus
