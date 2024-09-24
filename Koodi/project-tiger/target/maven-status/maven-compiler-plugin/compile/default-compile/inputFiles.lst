@@ -1,0 +1,11 @@
+/Users/tepsu/Downloads/Koulu/Ohjelmistoprojekti/Project-Tiger2/Project-Tiger/Koodi/project-tiger/src/main/java/tiikeri/project_tiger/ProjectTigerApplication.java
+/Users/tepsu/Downloads/Koulu/Ohjelmistoprojekti/Project-Tiger2/Project-Tiger/Koodi/project-tiger/src/main/java/tiikeri/project_tiger/entity/Kaupunki.java
+/Users/tepsu/Downloads/Koulu/Ohjelmistoprojekti/Project-Tiger2/Project-Tiger/Koodi/project-tiger/src/main/java/tiikeri/project_tiger/entity/Lippu.java
+/Users/tepsu/Downloads/Koulu/Ohjelmistoprojekti/Project-Tiger2/Project-Tiger/Koodi/project-tiger/src/main/java/tiikeri/project_tiger/entity/Status.java
+/Users/tepsu/Downloads/Koulu/Ohjelmistoprojekti/Project-Tiger2/Project-Tiger/Koodi/project-tiger/src/main/java/tiikeri/project_tiger/entity/Tapahtuma.java
+/Users/tepsu/Downloads/Koulu/Ohjelmistoprojekti/Project-Tiger2/Project-Tiger/Koodi/project-tiger/src/main/java/tiikeri/project_tiger/entity/TapahtumanLipputyyppi.java
+/Users/tepsu/Downloads/Koulu/Ohjelmistoprojekti/Project-Tiger2/Project-Tiger/Koodi/project-tiger/src/main/java/tiikeri/project_tiger/repository/KaupunkiRepository.java
+/Users/tepsu/Downloads/Koulu/Ohjelmistoprojekti/Project-Tiger2/Project-Tiger/Koodi/project-tiger/src/main/java/tiikeri/project_tiger/repository/LippuRepository.java
+/Users/tepsu/Downloads/Koulu/Ohjelmistoprojekti/Project-Tiger2/Project-Tiger/Koodi/project-tiger/src/main/java/tiikeri/project_tiger/repository/StatusRepository.java
+/Users/tepsu/Downloads/Koulu/Ohjelmistoprojekti/Project-Tiger2/Project-Tiger/Koodi/project-tiger/src/main/java/tiikeri/project_tiger/repository/TapahtumaRepository.java
+/Users/tepsu/Downloads/Koulu/Ohjelmistoprojekti/Project-Tiger2/Project-Tiger/Koodi/project-tiger/src/main/java/tiikeri/project_tiger/repository/TapahtumanLipputyyppiRepository.java

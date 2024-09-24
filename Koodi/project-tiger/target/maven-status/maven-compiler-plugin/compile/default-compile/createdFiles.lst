@@ -1,0 +1,11 @@
+tiikeri/project_tiger/repository/TapahtumanLipputyyppiRepository.class
+tiikeri/project_tiger/entity/TapahtumanLipputyyppi.class
+tiikeri/project_tiger/entity/Status.class
+tiikeri/project_tiger/repository/KaupunkiRepository.class
+tiikeri/project_tiger/repository/TapahtumaRepository.class
+tiikeri/project_tiger/repository/LippuRepository.class
+tiikeri/project_tiger/entity/Tapahtuma.class
+tiikeri/project_tiger/repository/StatusRepository.class
+tiikeri/project_tiger/ProjectTigerApplication.class
+tiikeri/project_tiger/entity/Lippu.class
+tiikeri/project_tiger/entity/Kaupunki.class
