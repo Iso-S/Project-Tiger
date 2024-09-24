@@ -129,7 +129,7 @@ Yleiskuva käyttöliittymästä:
 
 Tietokantaan säilytään laajasti tietoja, niin tapahtumista kuin tapahtumien asiakkaista. Yllä olevassa käsitemallissa on mallinnettu käsiteltävät tiedot.
 
-Tietohakemisto kirjallisena:
+**Tietohakemisto kirjallisena:**
 
 
 **1. Kaupungit**
