@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity6">
+
+<!--
+<link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}" /> 
+-->
+
+<head>
+    <title>Tapahtumat</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+
+    <h1>Tapahtumat</h1>
+
+    <div class="row">
+        <div class="col-md-12">
+            <!--
+			<h5>Kirjautuneena käyttäjä: <span style= "color: blue" sec:authentication="name">Name</span></h5>
+-->
+            <div>
+                <a href="/etusivu">Etusivu</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="col-md-12" style="padding:20px 0">
+
+        <h3>Tapahtumat</h3>
+
+        <table class="table table-striped">
+            <tr>
+                <th>Alkuaika</th>
+                <th>Loppuaika</th>
+                <th>Kuvaus</th>
+                <th>Maalit</th>
+            </tr>
+
+            <tr th:each="tapahtuma : ${tapahtumat}">
+                <td th:text="${tapahtuma.alkuaika}"></td>
+                <td th:text="${tapahtuma.loppuaika}"></td>
+                <td th:text="${tapahtuma.kuvaus}"></td>
+
+            </tr>
+
+        </table>
+
+        <a class="btn btn-success" href="/lisaatapahtuma">Lisää tapahtuma</a>
+    </div>
+    </table>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<!-- 
+<link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css"
+	th:href="@{/css/bootstrap.min.css}" />
+-->
+<head>
+	<title>Lisää tapahtuma</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+	<h1>Lisää tapahtuma</h1>
+
+	<div>
+	<form th:object="${tapahtuma}" th:action="@{tallennatapahtuma}" action="#" method="post">
+	
+		<div>
+		<label for="alkuaika">Alkamisaika</label>
+	    <input type="datetime-local" id="alkuaika" th:field="*{alkaa}" />
+	    <p th:if="${#fields.hasErrors('alkaa')}" th:errors="*{alkaa}" style="display: block; color: red;"></p>
+		</div>
+
+        <div>
+		<label for="loppuaika">Päättymisaika</label>
+    	<input type="datetime-local" id="loppuaika" th:field="*{loppuu}" />
+    	<p th:if="${#fields.hasErrors('loppuu')}" th:errors="*{loppuu}" style="display: block; color: red;"></p>
+        </div>
+    
+        <div>
+            <label for="kuvaus">Tapahtuman kuvaus</label>
+            <textarea id="kuvaus" th:field="*{kuvaus}" rows="4" cols="50"></textarea>
+            <p th:if="${#fields.hasErrors('kuvaus')}" th:errors="*{kuvaus}" style="display: block; color: red;"></p>
+        </div>
+		
+		<button type="submit" class="btn btn-success">Tallenna</button>
+
+        <a class="btn btn-success" href="/tapahtumalistaus">Valmis</a>    	
+        <input class="btn btn-secondary" type="button" value="Peruuta" onclick="window.location.href='/tapahtumalistaus'" />
+	
+	</form>
+	</div>
+	
+
+     
+	 <a  class="btn btn-success" href="/ottelulistaus">Valmis</a>    	
+	 <input class="btn btn-secondary" type="button" value="Peruuta" onclick="window.location.href='/ottelulistaus'" />
+     
+</body>
+</html>
