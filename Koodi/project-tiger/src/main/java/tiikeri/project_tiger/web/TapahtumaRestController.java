@@ -14,15 +14,15 @@ import tiikeri.project_tiger.repository.TapahtumaRepository;
 @RestController
 public class TapahtumaRestController {
     @Autowired
-    private TapahtumaRepository tapahtumaRepository;
+    private TapahtumaRepository TapahtumaRepository;
 
     @GetMapping("/tapahtumat")
     public List<Tapahtuma> haeKaikkiTapahtumat() {
-        return tapahtumaRepository.findAll();
+        return TapahtumaRepository.findAll();
     }
 
     @GetMapping("/tapahtumat/{id}")
-    public Optional<Tapahtuma> haeTapahtuma(@PathVariable Long id) {
-        return tapahtumaRepository.findById(id);
+    public Optional<Tapahtuma> haeTapahtuma(@PathVariable Long tapahtumaId) {
+        return TapahtumaRepository.findById(tapahtumaId);
     }
 }
