@@ -5,4 +5,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
 public interface LippuRepository extends JpaRepository<Lippu, Long> {
+    List<Lippu> findByLippuId(Long LippuId);
+    List<Lippu> findByLipputyyppi(String lipputyyppi);
 }
